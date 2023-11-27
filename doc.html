@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><u>CSS Selectors</u>:</h2>
+    <p>CSS selectors are used to "find" (or select) the HTML elements you want to style. </p>
+    <p>Every Selector has a Property name and property value.</p>
+     <ul>
+       <li><b> element Selector :</b> The element selector selects HTML elements based on the element name.<br/><br/>
+         <br/><b>Ex:</b> <br/>p {<br/>
+               text-align: center;<br/>
+               color: red;<br/>
+             }<br/>
+       </li>
+       <br/>
+       <li><b>id Selector :</b> The id selector uses the id attribute of an HTML element to select a specific element.<br/><br/>
+   
+           The id of an element is unique within a page, so the id selector is used to select one unique element!<br/><br/>
+           
+           To select an element with a specific id, write a hash (#) character, followed by the id of the element.<br/><br/>
+           <br/><b>Ex:</b><br/>#para1 {<br/>
+           text-align: center;<br/>
+           color: red;<br/>
+         }<br/>
+       </li>
+       <br/>
+       <li><b>class Selector :</b> The class selector selects HTML elements with a specific class attribute.<br/><br/>
+   
+           To select elements with a specific class, write a period (.) character, followed by the class name.<br/><br/>
+           <br/> <b>Ex:</b><br/>.center {<br/>
+               text-align: center;<br/>
+               color: red;<br/>
+             }<br/>
+       </li>
+       <br/>
+       <li><b>Universal Selector :</b> The universal selector (*) selects all HTML elements on the page.<br/>
+       <br/>
+       <br/><b>Ex:</b><br/>* {<br/>
+           text-align: center;<br/>
+           color: blue;<br/>
+         }  <br/>    
+   </li>
+   <br/>
+   <li><b>Grouping Selector :</b> The grouping selector selects all the HTML elements with the same style definitions.<br/><br/>
+   
+       Look at the following CSS code (the h1, h2, and p elements have the same style definitions).<br/><br/>
+       <br/><b>Ex:</b><br/>h1 {<br/>
+           text-align: center;<br/>
+           color: red;<br/>
+         }<br/>
+         <br/>
+         h2 {<br/>
+           text-align: center;<br/>
+           color: red;<br/>
+         }<br/>
+         <br/>
+         p {<br/>
+           text-align: center;<br/>
+           color: red;<br/>
+         }   <br/>
+   </li>
+   <br/>
+     </ul>
+     <h2><u>CSS Combinators</u>:</h2>
+         A combinator is something that explains the relationship between the selectors.<br/>
+        A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.<br/>
+        <br/>
+        <ol type="1">
+            <li>The <b>descendant selector</b> matches all elements that are descendants of a specified element.<br/><br/>
+            <b>Ex:</b><br/><br/>
+            div p {<br/>
+              background-color: yellow;<br/>
+            }<br/>
+            </li><br/><br/>
+          
+          <li>The <b>child selector</b> selects all elements that are the children of a specified element.<br/><br/>
+          <b>Ex:</b><br/><br/>
+          div > p {<br/>
+            background-color: yellow;<br/>
+          }<br/>
+          
+          </li><br/><br/>
+          
+          <li>The <b>adjacent sibling selector</b> is used to select an element that is directly after another specific element.<br/><br/>
+          
+            Sibling elements must have the same parent element, and "adjacent" means "immediately following".<br/><br/>
+            <b>Ex:</b><br/><br/>
+            div + p {<br/>
+              background-color: yellow;<br/>
+            }
+            <br/>
+          </li>
+          <br/><br/>
+          <li>The <b>general sibling selector</b> selects all elements that are next siblings of a specified element.<br/><br/>
+          <b>Ex:</b><br/><br/>
+          div ~ p {<br/>
+            background-color: yellow;<br/>
+          }<br/>
+          
+          </li></ol>
+          <br/><br/>
+<h2>element.class selector :</h2> 
+           <p> The element.class selector is used to select the specified element with the the specified class.</p>
+          <br/>
+          <b>Ex:</b><br/><br/>
+          p.intro {<br/>
+            background-color: yellow;<br/>
+          }<br/>
+          
+          <br/><br/>
+<hr/>        
+             
+</body>
+</html>
