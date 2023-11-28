@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <b>2. Combinator Selectors :</b> A combinator is something that explains the relationship between the selectors.<br/>
+  A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.<br/>
+  <br/>
+  There are four different combinators in CSS:  <br/>
+  <br/>
+<ul>
+
+<li>
+descendant selector &nbsp;(space)</li>
+
+<li>
+child selector &nbsp;(>)</li>
+
+<li>
+adjacent sibling selector &nbsp;(+)</li>
+
+<li>
+general sibling selector&nbsp; (~)</li>
+</ul>
+</li>
+<br/>
+<ol type="1">
+  <li>The <b>descendant selector</b> matches all elements that are descendants of a specified element.<br/><br/>
+  <b>Ex:</b><br/><br/>
+  div p {<br/>
+    background-color: yellow;<br/>
+  }<br/>
+  </li><br/><br/>
+
+<li>The <b>child selector</b> selects all elements that are the children of a specified element.<br/><br/>
+<b>Ex:</b><br/><br/>
+div > p {<br/>
+  background-color: yellow;<br/>
+}<br/>
+
+</li><br/><br/>
+
+<li>The <b>adjacent sibling selector</b> is used to select an element that is directly after another specific element.<br/><br/>
+
+  Sibling elements must have the same parent element, and "adjacent" means "immediately following".<br/><br/>
+  <b>Ex:</b><br/><br/>
+  div + p {<br/>
+    background-color: yellow;<br/>
+  }
+  <br/>
+</li>
+<br/><br/>
+<li>The <b>general sibling selector</b> selects all elements that are next siblings of a specified element.<br/><br/>
+<b>Ex:</b><br/><br/>
+div ~ p {<br/>
+  background-color: yellow;<br/>
+}<br/>
+
+</li></ol>
+<br/>
+<br/>
+<b>3. Attribute Selectors :</b> The [attribute] selector is used to select elements with a specified attribute.<br/>
+<br/>
+<b>Ex:</b><br/><br/>
+a[target] {<br/>
+  background-color: yellow;<br/>
+}<br/><br/>
+<ul>
+<li><b>[attribute="value"] Selector</b> : The [attribute="value"] selector is used to select elements with a specified attribute and value.<br/>
+  <br/>
+  <b>Ex:</b><br/><br/>
+  a[target="_blank"] {  <br/>
+
+    background-color: yellow;  <br/>
+
+  }  <br/>
+</li>
+<br/>
+
+<li><b>[attribute~="value"] Selector :</b> The [attribute~="value"] selector is used to select elements with an attribute value containing a specified word.<br/><br/>
+  <b>Ex:</b><br/><br/>
+  [title~="flower"] {<br/>
+
+    border: 5px solid yellow;<br/>
+
+  }<br/>
+</li>
+<br/>
+<li><b>[attribute|="value"] Selector :</b> The [attribute|="value"] selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-).<br/><br/>
+  <b>Ex:</b><br/><br/>
+  [class|="top"] {<br/>
+
+    background: yellow;<br/>
+
+  }<br/>
+
+</li>
+<br/>
+<li><b>[attribute^="value"] Selector :</b> The [attribute^="value"] selector is used to select elements with the specified attribute, whose value starts with the specified value.<br/>
+  <b>Ex:</b><br/><br/>
+  [class^="top"] {<br/>
+
+    background: yellow;<br/>
+
+  } <br/>
+
+</li>
+<br/>
+<li><b>[attribute$="value"] Selector :</b> The [attribute$="value"] selector is used to select elements whose attribute value ends with a specified value.<br/>
+  <b>Ex:</b><br/><br/>
+  [class$="test"] {<br/>
+
+    background: yellow;<br/>
+
+  }<br/>
+
+</li>
+<br/>
+<li><b>[attribute*="value"] Selector :</b> The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value.<br/>
+
+</li>
+<b>Ex:</b><br/><br/>
+[class*="te"] {<br/>
+
+  background: yellow;<br/>
+
+}<br/>
+
+</ul>
+
+</body>
+</html>
