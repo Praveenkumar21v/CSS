@@ -1,0 +1,58 @@
+legend{
+    color:darkcyan;
+}
+div{
+    color:darkcyan;
+}
+summary::marker{
+    color: darkgray;
+}
+
+label{
+    color: gray;
+    font-weight: bold;
+}
+label:hover{
+    color:black;
+}   
+
+label{
+    color: gray;
+    font-weight: bold;
+}
+select{
+    color: gray;
+    font-weight: bold;
+}
+select:hover{
+    color:black;
+  
+}
+ol{
+    color: gray;
+    font-weight: bold;
+}
+#dob{
+    color: blue;
+    font-weight: bold;
+}
+
+summary::first-line{
+    color:darkred;
+}
+b:hover{
+    color:blue;
+}
+b:active{
+color: darkgreen;
+}
+input:required{
+    background-color: cornflowerblue;
+}
+input:optional{
+    background-color:lightgreen;
+}
+input:invalid{
+    background-color:red;
+    
+}
