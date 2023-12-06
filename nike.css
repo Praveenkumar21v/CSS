@@ -1,0 +1,771 @@
+*{
+ font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;;
+}
+body{
+    overflow: scroll;
+    width: 100%;
+}
+header.first{
+    display: flex;
+    background-color:beige;
+    justify-content: space-between;
+
+}
+
+.join:hover{
+    opacity: 0.5;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+
+}
+.headlink{
+    font-size: small;
+    font-weight: bolder;
+}
+.bodylink{
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;   
+}
+
+input{
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    background-color:beige;
+}
+input[type="search"]::placeholder {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+input{
+    border: hidden;
+}
+.line:hover{
+    color: black;
+    text-decoration: underline solid black 3px; 
+}
+
+.fa-magnifying-glass{
+    position:absolute;
+    top:90px;
+    right: 415px;
+color:lightgray;
+}
+.fa-heart{
+    opacity: 0.5;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.fa-heart:hover{
+    color:red;
+    font-weight: bolder;
+}
+.fa-bag-shopping{
+    opacity: 0.5;
+    font-size: 25px;
+}
+.fa-bag-shopping:hover{
+    color: darkblue;
+}
+
+
+i:hover{
+    color: black;
+}
+header.second{
+    background-color:white;
+    display: flex;
+    align-content: center;
+    height: 65px;
+    justify-content: center;
+
+}
+div.logo{
+    position: relative;
+    left: -180px;
+}
+  
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+.us{
+    text-decoration: underline;
+    font-size: small;
+    font-weight: bolder;
+display: flex;
+justify-content: center;
+}
+p{
+    text-align: center;
+}
+.large{
+font-size: large;
+position: relative;
+top: 10px;
+}
+.small{
+    font-size: small;
+}
+.matter{
+    background-color:beige ;
+}
+b{
+    font-size: 25px;
+}
+a.sign{
+    font-size: 15px;
+ font-weight:lighter ;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ top: -40px;
+}
+video{
+   position: relative;
+   left: 25px;
+}
+b.alpha{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+button.note{
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    left: 570px;
+
+}
+.me{
+    font-size: medium;
+}
+.kick{
+    font-size: 70px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+span{
+    display: flex;
+    justify-content: center;
+    
+}
+button.explore{
+    background-color:black ;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100px;
+}
+b.ex{
+    font-size: medium;
+
+}
+b.shop{
+    font-size: medium;
+}
+h1{
+    display: flex;
+}
+
+
+.white{
+    border: 20px groove rgb(139, 83, 191); ;
+    border-width:"400px";
+    display: inline-flex;
+    position: relative;
+left: 50px;
+top: 0px;
+
+
+    }
+.black{
+    border: 20px groove rgb(77, 193, 193) ;
+    border-width:"400px";
+display: inline-flex;
+position: relative;
+left: 150px;
+top: 0px;
+
+}
+.deep{
+    border: 20px groove rgb(152, 50, 50) ;
+    border-width:"400px";
+display: inline-flex;
+position: relative;
+left: 250px;
+top: 0px;
+
+}
+.nu{
+    border: 20px groove rgb(24, 170, 99) ;
+    border-width:"400px";
+display: inline-flex;
+position: relative;
+left: 1390px;
+top: -535px;
+  
+}
+
+figcaption.super{
+    position: relative;
+bottom: 505px;
+left: 1410px;
+
+}
+.maro{
+    border: 20px groove rgb(24, 117, 115) ;
+    border-width:"400px";
+display: inline-flex;
+position: relative;
+left: 1850px;
+top: -1005px;
+   
+}
+figcaption.jord{
+    position: relative;
+bottom: 975px;
+left: 1870px;
+
+}
+.party{
+    border: 20px groove rgb(245, 159, 106) ;
+    border-width:"400px";
+display: inline-flex;
+position: relative;
+left: 2300px;
+top: -1470px;
+}
+figcaption.part{
+    position: relative;
+bottom: 1445px;
+left: 2320px;
+
+}
+section.ending{
+    position: relative;
+    bottom: 1405px;
+}
+.tre{
+    position: relative;
+    left: 30px;
+}
+.ing{
+    position: relative;
+    left: 60px;
+    bottom: -50px; 
+}
+.ding{
+    position: relative;
+    left: 65px;
+    bottom: -60px; 
+    font-weight: lighter;
+}
+.go{
+    position: relative;
+    left: 400px;
+    bottom: 390px; 
+
+}
+
+.ring{
+    position: relative;
+    left: 470px;
+    bottom: 375px; 
+    font-weight: lighter;
+}
+.mercury{
+    position: relative;
+    left: 800px;
+    bottom: 828px; 
+
+}
+.wing{
+    position: relative;
+    left: 870px;
+    bottom: 810px; 
+    font-weight: lighter;
+}
+.le{
+    position: relative;
+    left: 1145px;
+    bottom: 1265px; 
+
+}
+.bron{
+    position: relative;
+    left: 1220px;
+    bottom: 1250px; 
+    font-weight: lighter;
+
+}
+section.six{
+    position: relative;
+    bottom: 2605px;
+}
+a.o{
+    position: relative;
+    bottom: 295px;
+    left: 55px;
+    text-decoration: underline;
+    font-size: medium;
+   
+}
+a.p{
+    position: relative;
+    bottom: 735px;
+    left: 465px;
+    text-decoration: underline;
+    font-size: medium;
+   
+}
+a.q{
+    position: relative;
+    bottom: 1170px;
+    left: 865px;
+    text-decoration: underline;
+    font-size: medium;
+   
+}
+a.r{
+    position: relative;
+    bottom: 1233px;
+    left: 1210px;
+    text-decoration: underline;
+    font-size: medium;
+   
+}
+figcaption.never{
+position: relative;
+bottom: -30px;
+left: 60px;
+}
+figcaption.retro{
+    position: relative;
+    bottom: 0px;
+    left: 520px;
+    
+}
+figcaption.trend{
+    position: relative;
+    bottom: 35px;
+    left: 960px;
+    
+}
+.red{
+    position: absolute;
+    left: 80px;
+}
+.air{
+    position: relative;
+    bottom: -410px;
+    left: -250px;
+    font-variant: small-caps;
+    font-size: medium;
+   
+}
+.men{
+    position: relative;
+    bottom: -420px;
+    left: -378px;
+    font-variant: small-caps;
+    font-size: small;
+color: gray;
+
+}
+.rate{
+    position: relative;
+    bottom: -450px;
+    left: -440px;
+    font-variant: small-caps;
+    font-size: medium;
+}
+.dan{
+    position: relative;
+    left: 180px;
+} 
+.force{
+    position: relative;
+    bottom:-410px;
+    left: -250px;
+    font-variant: small-caps;
+    font-size: medium;
+
+}
+.women{
+    position: relative;
+    bottom: -420px;
+    left: -426px;
+    font-variant: small-caps;
+    font-size: small;
+color: gray;
+  
+}
+.bucks{
+    position: relative;
+    bottom: -450px;
+    left: -500px;
+    font-variant: small-caps;
+    font-size: medium;
+}
+.low{
+    position: relative;
+    left: 560px;
+    bottom: 400px ;
+
+}
+.slow{
+    position: relative;
+    bottom:-410px;
+    left: -250px;
+    font-variant: small-caps;
+    font-size: medium; 
+}
+.nem{
+    position: relative;
+    bottom: -420px;
+    left: -376px;
+    font-variant: small-caps;
+    font-size: small;
+color: gray;
+}
+.stock{
+    position: relative;
+    bottom: -450px;
+    left: -435px;
+    font-variant: small-caps;
+    font-size: medium;
+}
+.dunk{
+    position: relative;
+    left: 575px;
+    bottom: 250px ;
+
+}
+.high{
+    position: relative;
+    bottom:-410px;
+    left: -215px;
+    font-variant: small-caps;
+    font-size: medium; 
+}
+.nme{
+    position: relative;
+    bottom: -420px;
+    left: -350px;
+    font-variant: small-caps;
+    font-size: small;
+color: gray;
+}
+.pounds{
+    position: relative;
+    bottom: -450px;
+    left: -408px;
+    font-variant: small-caps;
+    font-size: medium;
+}
+.fly{
+    position: relative;
+    left: 165px;
+    bottom: 650px ;
+
+}
+.ease{
+    position: relative;
+    bottom:-410px;
+    left: -215px;
+    font-variant: small-caps;
+    font-size: medium; 
+}
+.enm{
+    position: relative;
+    bottom: -420px;
+    left: -315px;
+    font-variant: small-caps;
+    font-size: small;
+color: gray;
+}
+.way{
+    position: relative;
+    bottom: -450px;
+    left: -413px;
+    font-variant: small-caps;
+    font-size: medium;
+}
+.legacy{
+    position: relative;
+    left: -225px;
+    bottom: 1050px ;
+
+}
+.acy{
+    position: relative;
+    bottom:-410px;
+    left: -235px;
+    font-variant: small-caps;
+    font-size: medium; 
+}
+.gacy{
+    position: relative;
+    bottom: -420px;
+    left: -405px;
+    font-variant: small-caps;
+    font-size: small;
+color: gray;
+}
+.egacy{
+    position: relative;
+    bottom: -450px;
+    left: -468px;
+    font-variant: small-caps;
+    font-size: medium;
+}
+
+.miss{
+    position: relative;
+    left: 30px;
+    bottom:250px
+}
+.advb{
+    position: relative;
+    left: 30px;
+    bottom:230px
+  
+}
+.dead{
+    position: relative;
+    left: 430px;
+    bottom:250px;
+    font-size:60px;
+}
+.app{
+    position: relative;
+    bottom:230px;
+    font-size: medium;
+
+}
+.iconic{
+    position: relative;
+    bottom:240px;
+    left: 10px;
+    font-size: medium;
+ 
+}
+#crop{
+    position: relative;
+    bottom:200px;
+    left: 580px;
+    font-size: medium;
+ 
+}
+b.crop{
+    font-size: medium;
+}
+section.ball{
+    position: relative;
+    bottom: 655px;
+}
+section.essentials{
+    position: relative;
+    bottom: 835px;
+}
+h3.sim{
+    position: relative;
+    left: 60px;
+}
+.menswear{
+    position: relative;
+    left: -380px;
+    bottom: -35px;
+
+}
+#skid{
+    position: absolute;
+    right: 670px;
+    bottom: 55px;
+
+}
+.womenswear{
+    position: relative;
+    left: 70px;
+    bottom: 465px;
+
+}
+#disk{
+    position: absolute;
+    right: 670px;
+    bottom: 55px;
+
+}
+.kidswear{
+    position: relative;
+    left: 520px;
+    bottom: 965px;
+
+}
+#idks{
+    position: absolute;
+    right: 670px;
+    bottom: 55px;
+
+}
+section.list{
+    position: relative;
+    bottom: 1750px;
+    font-size: 18px;
+    font-weight: lighter;
+    left: 300px;
+    color: gray;
+    
+}
+ul{
+    list-style: none;
+cursor: pointer;
+}
+span.b{
+    position: relative;
+    left: -160px;
+}
+span.d{
+    position: relative;
+    left: 70px;
+}
+span.e{
+    position: relative;
+    left: 150px;
+}
+li:hover{
+color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 1700px;
+    width: 100%;
+}
+div.f{
+    position: relative;
+left: 0px;
+font-weight: lighter;
+font-size: small;
+}
+span.g{
+    position: relative;
+ bottom: 40px;
+ font-size: 12px;
+ font-weight: bold;
+}
+span.h{
+    position: relative;
+ bottom: -30px;
+ left: 100px;
+ font-size: lighter;
+ color: gray;
+}
+span.i{
+    position: relative;
+ bottom: 0px;
+ left: 110px;
+ font-size: lighter;
+ color: gray;
+}
+.vd{
+    font-weight: bold;
+    color: white;
+}
+
+li.black:hover{
+    color: white;
+}
+div.s{
+    position: relative;
+    bottom: 0px;
+    left: 60px;
+    font-size: small;    
+}
+li.hover:hover{
+    color: white;
+}
+.jd{
+    list-style: none;
+    font-weight: lighter;
+    font-size: smaller;
+    color: gray;
+}
+.jd:hover{
+    color: white;
+}
+i.fa-location-dot:hover{
+    color: white;
+}
+.footer{
+    color:gray;
+    font-size: small;
+    position: relative;
+    left: 850px;
+    bottom: 30px;
+}
+.footer:hover{
+    color: white;
+}
+div.anchor{
+    position: relative;
+    left: 1000px;
+    top: 60px;
+    color: gray;
+}
+.fa-twitter{
+    border-radius: 50%;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+}
+.fa-facebook{
+    font-size:26px ;
+}
+.fa-youtube{
+    border-radius: 50%;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+
+}.fa-instagram{
+    border-radius: 50%;
+    background-color: gray;
+    color: black;
+    padding: 6px;
+    font-size: 18px;
+
+}
+img:hover{
+    opacity: 0.5;
+
+}
