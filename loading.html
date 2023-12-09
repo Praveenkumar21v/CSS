@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 8px solid lightgrey;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border-top: 8px solid deepskyblue;
+            animation: loading 2s linear  infinite reverse forwards;
+        }
+        div:hover{
+            transform: scale(1.5, 1.5);
+        }
+
+        @keyframes loading{
+            0%{
+                rotate: 0deg;
+                border-top: 8px solid deepskyblue;
+            }
+            25%{
+                rotate: 90deg;
+                border-top: 8px solid goldenrod;
+
+            }
+            50%{
+                rotate: 180deg;
+                border-top: 8px solid darkred;
+
+            }
+            100%{
+                rotate: 360deg;
+                border-top: 8px solid darkgreen;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>   </div>
+</body>
+</html>
